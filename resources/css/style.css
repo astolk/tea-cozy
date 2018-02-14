@@ -16,13 +16,14 @@ header {
   align-items: center;
   position: fixed;
   border-bottom: 1px solid seashell;
+  top: 0;
   width: 100%;
   height: 69px;
+  background-color: black;
 }
 
 header .logo {
   padding-left: 10px;
-  padding-right: 50px;
 }
 
 header nav {
@@ -34,3 +35,67 @@ nav span {
   padding: 10px;
   text-decoration: underline;
 }
+
+.headertext {
+  color: seashell;
+}
+
+/* Our Mission */
+
+.missionbanner {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 330px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: black;
+  width: 1200px;
+  padding-left: 200px;
+  padding-right: 300px;
+  margin-bottom: 400px;
+}
+
+.bannertext {
+  margin-top: -20px;
+  margin-bottom: -10px;
+}
+
+/* Tea of the month */
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 1000px;
+  margin: 20px 250px;
+}
+
+.sorts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image{
+  height: 200px;
+  width: 300px;
+}
+
+.teasort {
+  padding: 10px;
+  padding-top: 0px;
+}
+
+.teatext {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+/* Locations */
